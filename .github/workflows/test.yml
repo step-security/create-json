@@ -1,0 +1,25 @@
+name: "Test"
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@v3
+      - uses: ./
+        with:
+          name: "new-json-file.json"
+          json: '{"name":"user", "password":"mypass"}'
