@@ -1,4 +1,8 @@
-## Create .json file to use in other steps of the workflow
+## StepSecurity Maintained `create-json` Action
+
+Forked from [jsdaniell/create-json](https://github.com/jsdaniell/create-json)
+
+Create .json file to use in other steps of the workflow
 
 ---
 
