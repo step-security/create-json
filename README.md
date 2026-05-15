@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 ## StepSecurity Maintained `create-json` Action
 
 Forked from [jsdaniell/create-json](https://github.com/jsdaniell/create-json)
