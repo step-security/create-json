@@ -26,6 +26,6 @@
     "axios": "^1.6.7"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.1"
+    "@vercel/ncc": "^0.38.4"
   }
 }
