@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/create-json",
+   "upstream_full_repo_name": "jsdaniell/create-json",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v1.2.7",
+     "created_at": "2026-05-15T05:56:20Z",
+     "published_at": "2026-05-16T01:43:06Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
